@@ -1,0 +1,41 @@
+.ind-container{
+    background-color: #EDEDED;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ind-title{
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: center;
+    margin-top: 50px;
+}
+.ind-title > h2{
+    color: #09090A;
+    font-size: 35px;
+    text-align: center;
+    line-height: 37px;
+}
+.ind-contents{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    grid-row-gap:50px;
+    margin-top: 30px;
+    
+}
+.ind-item{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-evenly;
+    
+}
+
+.ind-item > img{
+    height:100px
+}

@@ -1,0 +1,41 @@
+
+.container{
+    height: 100vh;
+    border-radius: ;
+    width: 100%;
+    background-color: #00FF00;
+    /* display: none; */
+    padding-top: 20px;
+}
+
+/* image */
+.bg-image{
+    margin-top: 53.5px;
+    margin-left: 0px;
+}
+.bg-image > img{
+    height: 580px;
+    width: 90%;
+    position: relative;
+}
+
+/* text */
+.text{
+    position: absolute;
+    top: 290px;
+    left: 360px;
+    font-size: 60px;
+    font-weight: bolder;
+    max-width: 1000px;
+}
+.text > h1{
+    font-size: 73px;
+    font-weight: bolder;
+    max-width: 800px;
+    line-height: 65px;
+}
+.text >p{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
