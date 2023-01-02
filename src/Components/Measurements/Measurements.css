@@ -48,3 +48,10 @@
 .item > img{
     height: 80px;
 }
+
+                /* media queries */
+/* laptop large */
+@media only screen and (max-width:1440px){
+   
+
+}

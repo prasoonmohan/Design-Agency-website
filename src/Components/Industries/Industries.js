@@ -23,7 +23,7 @@ function Industries() {
         <div className="ind-item">
           <img src={ind2} alt="" />
           <h4>MEDIA & ENTERTAINMENT</h4>
-        </div>
+        </div> 
         <div className="ind-item">
           <img src={ind3} alt="" />
           <h4>MEDIA & ENTERTAINMENT</h4>

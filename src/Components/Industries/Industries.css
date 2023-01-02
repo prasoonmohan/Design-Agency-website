@@ -39,3 +39,9 @@
 .ind-item > img{
     height:100px
 }
+
+                /* media queries */
+/* laptop large */
+@media only screen and (max-width:1440px){
+    
+}

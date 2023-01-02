@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Header/Header.css"
+import { GiHamburgerMenu } from 'react-icons/gi';
 function Header() {
   return (
     <div className="header">
@@ -12,7 +13,7 @@ function Header() {
             <li>Industries</li>
         </div>
         <div className="hamburger">
-          
+          <GiHamburgerMenu />
         </div>
         <div className="buttons">
             <button className='call-button'>Schedule A Call</button>
